@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box; /*This is the beginning of the login page*/
+}
+
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif; 
+    line-height: 34px; 
+    font-size: 18px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.75)),
+    url("https://ze-robot.com/images/source/26078.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    color: rgb(255, 255, 255) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    content: ''; 
+}
+
+#contact{
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+contactform ul {
+    margin-bottom: 20px;
+}
+
+#contactform li {
+    margin-bottom: 10px;
+}
+
+label, 
+input[type=text],
+input[type=email],
+textarea {
+    display: block; 
+    width: 100%; 
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px; 
+    border: 1px solid #ddd; 
+    padding: 0 10px; 
+    font-size: 15px;  
+}
+
+input[type=submit] {
+    background-color: grey; 
+    font-size: 18px; 
+    color: white; 
+    border: 0 none; 
+    padding: 30px 30px; 
+    cursor: pointer; 
+}
+
+textarea {
+    text-align: center;
+    height: 200px; 
+}
+
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.login-form h1 {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+.login-form input[type="password"],
+.login-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing:border-box;
+}
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #C0C0C0;
+}
+
+

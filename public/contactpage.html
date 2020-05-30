@@ -10,13 +10,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/stylesheet1.css">
-    <title>Job Mancer | ZAP</title>
+    <link rel="stylesheet" type="text/css" href="public/assets/css/contact.css">
+    <title>Job Mancer|ZAP</title>
 </head>
-
-
 <body>
-    <header id="maintopheader">
+    <header id="maintopheader"> 
         <div class="container">
             <a href="/contact" id="name">Contact</a>
             <nav>
@@ -28,7 +26,7 @@
 
     <div id="maincontainer" class="container">
         <section class="mainsection">
-            <h2>Contact Us Here</h2>
+            <h2 id="contact">Contact Us Here</h2>
             <form>
                 <label for="name">Subject</label>
                 <input type="text" id="subject" placeholder="subject of email"> <br>
@@ -42,7 +40,7 @@
     </div>
 
     <script>
-        $('form').on('submit', (e) => {
+        $('form').on('submit',(e) => {
             e.preventDefault();
 
             const email = $('#email').val().trim();
