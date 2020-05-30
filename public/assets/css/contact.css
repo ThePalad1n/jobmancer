@@ -18,16 +18,6 @@ body {
     content: ''; 
 }
 
-/*This is where the body goes*/
-#login{
-    color: whitesmoke;
-}
-
-#submit-button{
-    background-color: orange;
-    color:black;
-}
-
 
 /*contact page*/
 #contactform ul {
@@ -99,4 +89,6 @@ textarea {
     color: #C0C0C0;
 }
 
+
+ 
 
