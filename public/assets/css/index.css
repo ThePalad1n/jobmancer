@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box; /*This is the beginning of the login page*/
+}
+
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif; 
+    line-height: 34px; 
+    font-size: 18px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.75)),
+    url("https://ze-robot.com/images/source/26078.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    color: rgb(255, 255, 255) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    content: ''; 
+}
+
+#name{
+    background-color:orange;
+}

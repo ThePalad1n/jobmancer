@@ -26,14 +26,9 @@ app.use(session({
   saveUninitialized: true
 }));
 */
-
+app.use(express.static("public"));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-
-
-app.use(express.static(__dirname + '/public'));
-app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
-
 
 
 // ================================================================================
@@ -107,15 +102,15 @@ app.get('/home', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.get('/resumeBuilder', function(req, res) {
-	if (req.session.loggedin) {
-    res.sendFile(path.join(__dirname, 'public', 'get-started.html'));
-		res.send('Welcome, ' + req.session.email + '!');
-	} else {
-		res.send('Please login to view this page!');
-	}
-	res.end();
-});
+// app.get('/resumeBuilder', function(req, res) {
+// 	if (req.session.loggedin) {
+//     res.sendFile(path.join(__dirname, 'public', 'get-started.html'));
+// 		res.send('Welcome, ' + req.session.email + '!');
+// 	} else {
+// 		res.send('Please login to view this page!');
+// 	}
+// 	res.end();
+// });
 
 app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'contactpage.html'));
